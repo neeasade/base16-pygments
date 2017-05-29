@@ -1,0 +1,74 @@
+/*
+
+    Name:       Base16 <%= @scheme %> Light
+    Author:     <%= @author %>
+
+    Pygments template by Jan T. Sott (https://github.com/idleberg)
+    Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
+
+*/
+.syntax .hll { background-color: #{{base06}} }
+.syntax  { background: #{{base07}}; color: #{{base00}} }
+.syntax .c { color: #{{base04}} } /* Comment */
+.syntax .err { color: #{{base08}} } /* Error */
+.syntax .k { color: #{{base0E}} } /* Keyword */
+.syntax .l { color: #{{base09}} } /* Literal */
+.syntax .n { color: #{{base00}} } /* Name */
+.syntax .o { color: #{{base0C}} } /* Operator */
+.syntax .p { color: #{{base00}} } /* Punctuation */
+.syntax .cm { color: #{{base04}} } /* Comment.Multiline */
+.syntax .cp { color: #{{base04}} } /* Comment.Preproc */
+.syntax .c1 { color: #{{base04}} } /* Comment.Single */
+.syntax .cs { color: #{{base04}} } /* Comment.Special */
+.syntax .gd { color: #{{base08}} } /* Generic.Deleted */
+.syntax .ge { font-style: italic } /* Generic.Emph */
+.syntax .gh { color: #{{base00}}; font-weight: bold } /* Generic.Heading */
+.syntax .gi { color: #{{base0B}} } /* Generic.Inserted */
+.syntax .gp { color: #{{base04}}; font-weight: bold } /* Generic.Prompt */
+.syntax .gs { font-weight: bold } /* Generic.Strong */
+.syntax .gu { color: #{{base0C}}; font-weight: bold } /* Generic.Subheading */
+.syntax .kc { color: #{{base0E}} } /* Keyword.Constant */
+.syntax .kd { color: #{{base0E}} } /* Keyword.Declaration */
+.syntax .kn { color: #{{base0C}} } /* Keyword.Namespace */
+.syntax .kp { color: #{{base0E}} } /* Keyword.Pseudo */
+.syntax .kr { color: #{{base0E}} } /* Keyword.Reserved */
+.syntax .kt { color: #{{base0A}} } /* Keyword.Type */
+.syntax .ld { color: #{{base0B}} } /* Literal.Date */
+.syntax .m { color: #{{base09}} } /* Literal.Number */
+.syntax .s { color: #{{base0B}} } /* Literal.String */
+.syntax .na { color: #{{base0D}} } /* Name.Attribute */
+.syntax .nb { color: #{{base00}} } /* Name.Builtin */
+.syntax .nc { color: #{{base0A}} } /* Name.Class */
+.syntax .no { color: #{{base08}} } /* Name.Constant */
+.syntax .nd { color: #{{base0C}} } /* Name.Decorator */
+.syntax .ni { color: #{{base00}} } /* Name.Entity */
+.syntax .ne { color: #{{base08}} } /* Name.Exception */
+.syntax .nf { color: #{{base0D}} } /* Name.Function */
+.syntax .nl { color: #{{base00}} } /* Name.Label */
+.syntax .nn { color: #{{base0A}} } /* Name.Namespace */
+.syntax .nx { color: #{{base0D}} } /* Name.Other */
+.syntax .py { color: #{{base00}} } /* Name.Property */
+.syntax .nt { color: #{{base0C}} } /* Name.Tag */
+.syntax .nv { color: #{{base08}} } /* Name.Variable */
+.syntax .ow { color: #{{base0C}} } /* Operator.Word */
+.syntax .w { color: #{{base00}} } /* Text.Whitespace */
+.syntax .mf { color: #{{base09}} } /* Literal.Number.Float */
+.syntax .mh { color: #{{base09}} } /* Literal.Number.Hex */
+.syntax .mi { color: #{{base09}} } /* Literal.Number.Integer */
+.syntax .mo { color: #{{base09}} } /* Literal.Number.Oct */
+.syntax .sb { color: #{{base0B}} } /* Literal.String.Backtick */
+.syntax .sc { color: #{{base00}} } /* Literal.String.Char */
+.syntax .sd { color: #{{base04}} } /* Literal.String.Doc */
+.syntax .s2 { color: #{{base0B}} } /* Literal.String.Double */
+.syntax .se { color: #{{base09}} } /* Literal.String.Escape */
+.syntax .sh { color: #{{base0B}} } /* Literal.String.Heredoc */
+.syntax .si { color: #{{base09}} } /* Literal.String.Interpol */
+.syntax .sx { color: #{{base0B}} } /* Literal.String.Other */
+.syntax .sr { color: #{{base0B}} } /* Literal.String.Regex */
+.syntax .s1 { color: #{{base0B}} } /* Literal.String.Single */
+.syntax .ss { color: #{{base0B}} } /* Literal.String.Symbol */
+.syntax .bp { color: #{{base00}} } /* Name.Builtin.Pseudo */
+.syntax .vc { color: #{{base08}} } /* Name.Variable.Class */
+.syntax .vg { color: #{{base08}} } /* Name.Variable.Global */
+.syntax .vi { color: #{{base08}} } /* Name.Variable.Instance */
+.syntax .il { color: #{{base09}} } /* Literal.Number.Integer.Long */

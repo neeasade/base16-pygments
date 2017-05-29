@@ -1,18 +1,19 @@
 # Base16 for Pygments
 
-Style sheets for [Pygments][1] based on Chris Kempson's [Base16][2] colour scheme
+Style sheets for [Pygments][1] based on Chris Kempson's [Base16][2] colour schemes.
 
-## Installation
+The schemes in this repo were imported from:
 
-Please refer to the [Pygments documentation][3] in order to build or use these color schemes
+- https://github.com/chriskempson/base16-unclaimed-schemes
+- https://github.com/chriskempson/base16-default-schemes
 
-## Contributing
+## Usage
 
-All pull requests should be made against [Base16 Builder][4], the tool used to compile these style sheets
+Generate the templates with `generate.sh`, they will be present in the output directory.
 
 ## License
 
-Copyright (C) 2013 Jan T. Sott
+Copyright (C) 2013 Jan T. Sott, 2017 Nathan R. Isom
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -22,7 +23,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Credits
 
-Original Base16 color scheme by [Chris Kempson][5]
+Original Base16 color scheme by [Chris Kempson][5]. Mustache.sh by @rcrowley
 
 [1]: http://pygments.org
 [2]: https://github.com/chriskempson/base16
